@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+    height: 80px;
+}
+
+nav ul {
+    background: #097381;
+    padding: 10px 100px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    height: 80px;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:hover {
+    background: #fff;
+}
+
+nav ul li:hover a {
+    color: #000;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.logo {
+    float: left;
+}
+
+.desc {
+    float: right;
+    margin-right: 150px;
+    text-align: center;
+    color: #fff;
+}
+
+.barang {
+    margin: 10px 10px;
+}
+
+.transaksi {
+    margin: 70px 10px;
+}
+
+.button {
+    background: #097381;
+    color: white;
+    font-size: 11pt;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 1300px;
+    border: 1px solid #ddd;
+}
+
+.tb_merk {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 500px;
+    border: 1px solid #ddd;
+}
+
+.tb_jenis {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 500px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #097381;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jwpopup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 110px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.7);
+}
+.jwpopup-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    height: 370px;
+    max-width: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    font-size: 16px;
+    text-align: center;
+}
+.jwpopup-head {
+    font-size: 16px;
+    padding: 5px 20px 25px;
+    color: white;
+    background: #097381;
+}
+.jwpopup-main {
+    padding: 30px 16px;
+    text-align: left;
+    font-size: 18px;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+.jwpopup-foot {
+    font-size: 12px;
+    margin-top: 23px;
+    padding: 10px 16px;
+    color: #ffffff;
+    background: white;
+}
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+@keyframes animatetop {
+    from {top:-300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+.close {
+    margin-top: 1px;
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover, .close:focus {
+    color: #999999;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button1 {
+    background: #097381;
+    color: white;
+    font-size: 11pt;
+    width: 100px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-left: 350px;
+}
